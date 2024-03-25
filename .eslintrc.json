@@ -1,0 +1,12 @@
+{
+    "extends": ["airbnb", "plugin:react/recommended"],
+    "plugins": ["react", "jsx-a11y", "import"],
+    "rules": {
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+      // Add your custom ESLint rules here
+    },
+    "globals": {
+      "document": true
+    }
+  }
+  
